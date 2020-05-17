@@ -1,0 +1,19 @@
+# Mac files
+.DS_Store
+
+# Dependency directories
+**/node_modules
+
+# lerna files
+/lerna-debug.log
+
+**/worker
+**/dist
+**/package-lock.json
+
+# Local files can be prefixed with _
+_*
+**/_*
+
+# Private variables
+.env.production

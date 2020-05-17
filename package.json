@@ -1,0 +1,28 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node-dev -- ./dev/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^1.0.9",
+    "@types/node": "^13.13.5",
+    "@types/node-fetch": "^2.5.7",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "node-fetch": "^2.6.0",
+    "source-map-loader": "^0.2.4",
+    "source-map-support": "^0.5.19",
+    "ts-loader": "^7.0.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0"
+  }
+}
