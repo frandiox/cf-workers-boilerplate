@@ -54,4 +54,4 @@ jobs:
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          $PRODUCTION_PASSPHRASE: ${{ secrets.PRODUCTION_PASSPHRASE }}
+          PRODUCTION_PASSPHRASE: ${{ secrets.PRODUCTION_PASSPHRASE }}
