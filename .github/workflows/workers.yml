@@ -10,7 +10,6 @@ on:
       - "workers/**"
       - ".env.production.gpg"
       - "yarn.lock"
-      - "!**/*.md"
 
 defaults:
   run:
