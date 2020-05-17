@@ -4,9 +4,6 @@
 # Dependency directories
 **/node_modules
 
-# lerna files
-/lerna-debug.log
-
 **/worker
 **/dist
 **/package-lock.json
