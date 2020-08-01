@@ -1,5 +1,3 @@
-import {} from '@cloudflare/workers-types'
-
 export default function setup({
   worker,
   routes,
