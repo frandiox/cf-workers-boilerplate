@@ -1,4 +1,4 @@
-import {} from '@cloudflare/workers-types'
+import '@cloudflare/workers-types'
 
 export default function setup({
   worker,
