@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "esnext",
+    "target": "es2019",
     "lib": ["ESNext", "WebWorker", "DOM", "DOM.Iterable"],
     "alwaysStrict": true,
     "strict": true,
