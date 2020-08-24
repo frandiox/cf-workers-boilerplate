@@ -1,6 +1,17 @@
+import { Handler, Route } from '../@types/http'
 import { logger } from '../utils/logger'
 import { UserInputError } from '../utils/http'
 import { sendSlackMessage } from '../services/slack'
+
+type CreateOrderInput = {
+  restaurantId: string
+  items: [
+    {
+      name: string
+      quantity: number
+    }
+  ]
+}
 
 const handler: Handler = async function ({ body }) {
   logger.info('Create Order', body)

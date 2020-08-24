@@ -18,8 +18,6 @@
     "./src/**/*.ts",
     "./workers/**/*.ts",
     "./test/**/*.ts",
-    "./node_modules/@cloudflare/workers-types/index.d.ts",
-    "@types/*",
     "dev/*"
   ],
   "exclude": [

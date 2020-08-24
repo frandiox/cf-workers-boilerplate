@@ -1,3 +1,4 @@
+import { Handler, Route } from '../@types/http'
 import { logger } from '../utils/logger'
 
 const handler: Handler = async function ({ body }) {

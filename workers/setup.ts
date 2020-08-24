@@ -1,3 +1,5 @@
+import { Handler, Query, HTTPMethod, Route } from '../src/@types/http'
+
 export default function setup({
   worker,
   routes,

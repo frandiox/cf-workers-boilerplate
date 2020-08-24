@@ -1,3 +1,6 @@
+import { Overwrite } from '../@types/util'
+import { HTTPMethod, ResponsePayload } from '../@types/http'
+
 export function makeRequest(
   endpoint: string,
   {
@@ -5,7 +8,7 @@ export function makeRequest(
     headers = {},
     body = {},
     ...options
-  }: MakeRequestOptions = {}
+  }: Overwrite<RequestInit, { body?: object; method?: HTTPMethod }> = {}
 ) {
   return fetch(endpoint, {
     method,
